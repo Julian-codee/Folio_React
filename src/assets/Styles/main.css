@@ -1,0 +1,14 @@
+
+.mainContent {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .mainContent h2 {
+    color: #333;
+  }
+  
+  .mainContent p {
+    font-size: 1.2rem;
+  }
+  
