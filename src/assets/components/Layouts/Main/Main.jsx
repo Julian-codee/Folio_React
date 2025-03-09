@@ -2,6 +2,7 @@ import React from 'react'
 import '../../../Styles/main.css'
 
 
+
 export const Main = () => {
   return (
     <>
