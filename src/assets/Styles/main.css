@@ -1,38 +1,43 @@
 /*Title*/
 
 .mainContent {
-    padding: 20px;
-    text-align: center;
-  }
-    
-  .mainContent p {
-    font-size: 1.2rem;
-  }
+  margin: 16rem;
+  padding: 20px;
+  text-align: center;
+  text-align: center;
+ 
+}
 
-  .title{
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-.title span{
+.mainContent p {
+  font-size: 1.2rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.title span {
   display: block;
-  font-size: 2.8rem;
+  font-size: 3.5rem;
   margin-top: 10px;
 }
 
-.subTitle{
+.subTitle {
   font-size: 1.2rem;
   color: #666;
   margin-top: 10px;
 }
 
+.subTitle
+
 /*Buttons*/
 
-.button-log{
+.button-log {
   margin-top: 20px;
 }
 
-.button-log a{
+.button-log a {
   display: inline-block;
   padding: 10px 20px;
   font-size: 1rem;
@@ -42,23 +47,22 @@
   margin: 10px;
 }
 
-.btn-Primary{
+.btn-Primary {
   background-color: black;
   color: white;
 }
 
-.btn-secondary{
+.btn-secondary {
   border: 1px solid black;
   color: black;
 }
 
-.btn-Primary:hover{
+.btn-Primary:hover {
   background-color: #3D3D3D;
+  border: 1px solid #3D3D3D;
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
   background-color: #E7E7E7;
+  border: 1px solid #3D3D3D;
 }
-
-
-  
