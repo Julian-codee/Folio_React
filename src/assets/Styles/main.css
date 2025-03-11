@@ -1,3 +1,4 @@
+/*Title*/
 
 .mainContent {
     padding: 20px;
@@ -23,6 +24,40 @@
   font-size: 1.2rem;
   color: #666;
   margin-top: 10px;
+}
+
+/*Buttons*/
+
+.button-log{
+  margin-top: 20px;
+}
+
+.button-log a{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.btn-Primary{
+  background-color: black;
+  color: white;
+}
+
+.btn-secondary{
+  border: 1px solid black;
+  color: black;
+}
+
+.btn-Primary:hover{
+  background-color: #3D3D3D;
+}
+
+.btn-secondary:hover{
+  background-color: #E7E7E7;
 }
 
 
