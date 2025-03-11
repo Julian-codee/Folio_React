@@ -1,7 +1,14 @@
 /*Title*/
+html, body{
+  scroll-snap-type: y mandatory;
+}
+
+.logoPersonal-img{
+  width: 10rem;
+}
 
 .mainContent {
-  margin: 16rem;
+  margin: 14rem;
   padding: 20px;
   text-align: center;
   text-align: center;

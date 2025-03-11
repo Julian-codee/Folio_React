@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../../Styles/main.css'
+import logoPersonal from '../../../react.svg'
 
 
 
@@ -8,6 +9,8 @@ export const Main = () => {
     <>
     
     <main className='mainContent'>
+
+      <img src={logoPersonal} alt="logo" className='logoPersonal-img' />
 
         <h2 className='title'>Hello, I´m 
           <span> Jul!an Dev</span>
