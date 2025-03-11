@@ -6,14 +6,16 @@ html, body{
 /*Tamaño de la imagen principal*/
 
 .logoPersonal-img{
-  width: 10rem;
+  margin-bottom: -2rem;
+  width: 15rem;
+  margin-left: 3rem;
 }
 
 /*Diseño de los contenedores*/
 
 .mainContent {
-  margin: 11rem;
-  padding: 20px;
+  margin: 9rem;
+  padding: 10px;
   text-align: center;
   text-align: center;
  

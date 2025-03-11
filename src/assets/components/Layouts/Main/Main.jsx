@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../../../Styles/main.css'
-import logoPersonal from '../../../react.svg'
-
+import logoPersonal from '../../../../img/ME2.png'
 
 
 export const Main = () => {
