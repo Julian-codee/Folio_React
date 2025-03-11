@@ -1,0 +1,54 @@
+#menu-toggle{
+    display: none;
+}
+
+.img-label{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    right: 3rem;
+    border-radius: 8px;
+    width: 5rem;
+}
+
+
+/*Muestra el menu cuando el checkbox esta marcado*/
+
+#menu-toggle:checked + .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+}
+
+.dropdown-menu li{
+    margin-bottom: 5px;
+}
+
+
+.dropdown-menu li:last-child{
+    margin-bottom: 0;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}   
+
+.dropdown-menu a:hover{
+    color: #0693e3;
+}

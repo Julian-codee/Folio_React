@@ -1,14 +1,74 @@
+/*Title*/
+html, body{
+  scroll-snap-type: y mandatory;
+}
+
+.logoPersonal-img{
+  width: 10rem;
+}
 
 .mainContent {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .mainContent h2 {
-    color: #333;
-  }
-  
-  .mainContent p {
-    font-size: 1.2rem;
-  }
-  
+  margin: 14rem;
+  padding: 20px;
+  text-align: center;
+  text-align: center;
+ 
+}
+
+.mainContent p {
+  font-size: 1.2rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.title span {
+  display: block;
+  font-size: 3.5rem;
+  margin-top: 10px;
+}
+
+.subTitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.subTitle
+
+/*Buttons*/
+
+.button-log {
+  margin-top: 20px;
+}
+
+.button-log a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.btn-Primary {
+  background-color: black;
+  color: white;
+}
+
+.btn-secondary {
+  border: 1px solid black;
+  color: black;
+}
+
+.btn-Primary:hover {
+  background-color: #3D3D3D;
+  border: 1px solid #3D3D3D;
+}
+
+.btn-secondary:hover {
+  background-color: #E7E7E7;
+  border: 1px solid #3D3D3D;
+}
