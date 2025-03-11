@@ -1,7 +1,8 @@
 import React from 'react'
 import '../../../Styles/header.css'
 import logo from '../../../react.svg'
-import Sun from '../../../../img/icons/IconSun.png'
+import { DropDown  } from '../../Ui/DropDown'
+
 
 export const Header = () => {
   return (
@@ -29,10 +30,7 @@ export const Header = () => {
             </ul>
         </nav>
 
-        <div className="bg-container">
-            <img src={Sun} alt="logo" className='logo-sun' />
-        </div>
-
+        <DropDown/>
 
     </header>
 
