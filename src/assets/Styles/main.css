@@ -64,8 +64,6 @@ html, body{
 }
 
 .btn-Primary {
-  transform: scale(1);
-  text-align: center;
   width: 9rem;
   background-color: black;
   color: white;
