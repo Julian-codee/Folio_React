@@ -15,8 +15,7 @@ export const App = () => {
 
         <Main />
 
-        <Footer />
-
+        
       </div>
     </>
   );

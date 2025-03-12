@@ -28,23 +28,24 @@ html, body{
 /*Title*/
 
 .title {
-  font-size: 3rem;
+  font-size: 4.1rem;
   font-weight: bold;
 }
 
+
+
 .title span {
   display: block;
-  font-size: 3.5rem;
-  margin-top: 10px;
+  font-size: 4rem;
+  margin-top: -5px;
 }
 
-.subTitle {
-  font-size: 1.2rem;
+.SubTitle {
+  font-size: 1.5rem !important;
   color: #666;
-  margin-top: 10px;
+  margin-top: -1rem;
 }
 
-.subTitle
 
 /*Buttons*/
 
@@ -54,26 +55,44 @@ html, body{
 
 .button-log a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 15px 30px;
   font-size: 1rem;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 25px;
   margin: 10px;
+  
 }
 
 .btn-Primary {
+  transform: scale(1);
+  text-align: center;
+  width: 9rem;
   background-color: black;
   color: white;
+  padding: 20px 30px;
+}
+
+.ArrowRight{
+  width: 1.3rem;
+  margin-left: 0.5rem;
+  margin-bottom: -0.35rem;
 }
 
 .btn-secondary {
+  width: 9rem;
   border: 1px solid black;
+  margin-left: 2rem;
   color: black;
+}
+
+.ArrowDown{
+  width: 1.3rem;
+  margin-left: 0.7rem;
+  margin-bottom: -0.35rem;
 }
 
 .btn-Primary:hover {
   background-color: #3D3D3D;
-  border: 1px solid #3D3D3D;
 }
 
 .btn-secondary:hover {
