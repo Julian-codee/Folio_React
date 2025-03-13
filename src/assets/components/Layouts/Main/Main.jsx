@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../../Styles/main.css'
 import logoPersonal from '../../../react.svg'
+import Video from '../../../../img/MeVideo.mp4'
 
 
 
@@ -10,7 +11,8 @@ export const Main = () => {
     
     <main className='mainContent'>
 
-      <img src={logoPersonal} alt="logo" className='logoPersonal-img' />
+      <video src={Video} width='450px' autoPlay loop muted></video>
+      
 
         <h2 className='title'>Hello, I´m 
           <span> Jul!an Dev</span>
