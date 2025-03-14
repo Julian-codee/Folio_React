@@ -14,7 +14,8 @@
   }
   
   .info-container p {
-    font-size: 1rem;
+    width: 90%;
+    font-size: 1.2rem;
     color: #555;
     line-height: 1.6;
     margin-bottom: 10px;
@@ -29,9 +30,8 @@
   }
   
   .info-item {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
   }
   
   .label {
@@ -62,6 +62,7 @@
     transition: all 0.3s ease;
     width: fit-content;
     margin-top: 10px;
+    margin-bottom: 5rem;
   }
   
   .download-button:hover {

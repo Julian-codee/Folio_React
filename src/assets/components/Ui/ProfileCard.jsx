@@ -4,24 +4,39 @@ import '../../Styles/ProfileCard.css'
 export const ProfileCard = () => {
   return (
     <>
-    <div className="personal-info">
+
+     <div className="info-container">
+
+     <h3>Hi there! I'm Jul!an</h3>
+      
+      <p>
+        I'm a passionate frontend developer and UI/UX designer with over 5 years of 
+        experience creating beautiful, functional, and user-centered digital experiences.
+      </p>
+      
+      <p>
+        My approach to design combines aesthetics with functionality, ensuring that the end 
+        product not only looks great but also provides an intuitive user experience.
+      </p>
+
+     <div className="personal-info">
         <div className="info-item">
-          <span className="label">Name</span>
-          <span className="value">John Doe</span>
+          <span className="label">Name: </span>
+          <span className="value">Julian Cortes</span>
         </div>
         
         <div className="info-item">
-          <span className="label">Email</span>
-          <span className="value">john@example.com</span>
+          <span className="label">Email: </span>
+          <span className="value">mmm808383@gmail.com</span>
         </div>
         
         <div className="info-item">
-          <span className="label">Location</span>
-          <span className="value">New York, USA</span>
+          <span className="label">Location: </span>
+          <span className="value">Quindio, Colombia</span>
         </div>
         
         <div className="info-item">
-          <span className="label">Availability</span>
+          <span className="label">Availability: </span>
           <span className="value">Freelance</span>
         </div>
       </div>
@@ -29,6 +44,10 @@ export const ProfileCard = () => {
       <button className="download-button">
         Download CV
       </button>
+
+     </div>
+
+  
     </>
   );
 };

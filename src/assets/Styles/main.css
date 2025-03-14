@@ -68,6 +68,7 @@ html, body{
   background-color: black;
   color: white;
   padding: 20px 30px;
+  transition: all 0.3s ease;
 }
 
 .ArrowRight{
@@ -81,6 +82,7 @@ html, body{
   border: 1px solid black;
   margin-left: 2rem;
   color: black;
+  transition: all 0.3s ease;
 }
 
 .ArrowDown{
@@ -91,9 +93,11 @@ html, body{
 
 .btn-Primary:hover {
   background-color: #3D3D3D;
+  transform: translateY(-2px);
 }
 
 .btn-secondary:hover {
   background-color: #E7E7E7;
   border: 1px solid #3D3D3D;
+  transform: translateY(-2px);
 }
