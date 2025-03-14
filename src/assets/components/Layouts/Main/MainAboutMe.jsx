@@ -7,9 +7,9 @@ export const MainAboutMe = () => {
   return (
     <section className="main-about-me">
       <div className="about-header">
-        <h2>About Me</h2>
+        <h2 className="AboutMe-title">About Me</h2>
         <hr className="divider" />
-        <p>
+        <p className="short-description">
           Get to know me better and learn about my journey in the world of
           design and development.
         </p>

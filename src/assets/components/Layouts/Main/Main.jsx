@@ -25,9 +25,11 @@ export const Main = () => {
          <a href="#" className='btn-secondary'>Learn More <img src={arrowDown} alt="Arrow" className='ArrowDown' /></a>
         </div>
 
-        <MainAboutMe />
+      
 
     </main>
+
+    <MainAboutMe />
     </>
   )
 }
