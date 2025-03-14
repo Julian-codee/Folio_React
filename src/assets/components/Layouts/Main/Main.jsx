@@ -1,8 +1,9 @@
-import React, { useEffect } from 'react'
 import '../../../Styles/main.css'
 import logoPersonal from '../../../../img/ME2.png'
 import arrow from '../../../../img/icons/ArrowRight.png'
 import arrowDown from '../../../../img/icons/ArrowDown.png'
+import Video from '../../../../img/VideoMe2.mp4'
+
 
 
 export const Main = () => {
@@ -11,7 +12,7 @@ export const Main = () => {
     
     <main className='mainContent'>
 
-      <img src={logoPersonal} alt="logo" className='logoPersonal-img' />
+        <video src={Video} width='450px' autoPlay loop muted className='logoPersonal-Video'></video>
 
         <h2 className='title'>Hello, I´m 
           <span> Jul!an Dev</span>

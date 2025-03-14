@@ -5,16 +5,17 @@ html, body{
 
 /*Tamaño de la imagen principal*/
 
-.logoPersonal-img{
-  margin-bottom: -2rem;
-  width: 15rem;
-  margin-left: 3rem;
+.logoPersonal-Video{
+  margin-bottom: -8rem;
+  width: 35rem;
+  margin-left: 1rem;
+
 }
 
 /*Diseño de los contenedores*/
 
 .mainContent {
-  margin: 9rem;
+  margin: 6rem;
   padding: 10px;
   text-align: center;
   text-align: center;
