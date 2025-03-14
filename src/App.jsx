@@ -14,7 +14,6 @@ export const App = () => {
         <Header />
 
         <Main />
-        <Main />
         
 
         

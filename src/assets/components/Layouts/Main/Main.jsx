@@ -3,6 +3,7 @@ import logoPersonal from '../../../../img/ME2.png'
 import arrow from '../../../../img/icons/ArrowRight.png'
 import arrowDown from '../../../../img/icons/ArrowDown.png'
 import Video from '../../../../img/VideoMe2.mp4'
+import { MainAboutMe } from './MainAboutMe'
 
 
 
@@ -23,6 +24,8 @@ export const Main = () => {
          <a href="#" className='btn-Primary'>View My Work <img src={arrow} alt="Arrow" className='ArrowRight' /></a>
          <a href="#" className='btn-secondary'>Learn More <img src={arrowDown} alt="Arrow" className='ArrowDown' /></a>
         </div>
+
+        <MainAboutMe />
 
     </main>
     </>

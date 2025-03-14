@@ -1,0 +1,70 @@
+/* Info Container */
+.info-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .info-container h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+  }
+  
+  .info-container p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  /* Personal Info Grid */
+  .personal-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .label {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .value {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111;
+  }
+  
+  /* Download Button */
+  .download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+    margin-top: 10px;
+  }
+  
+  .download-button:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+  }
