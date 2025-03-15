@@ -13,6 +13,10 @@ body {
   left: 0;
   width: 100%;
   backdrop-filter: blur(6px);
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: slideDown 1s ease-in-out forwards;
+  z-index: 1000;
 }
 
 .header.scrolled {
@@ -65,3 +69,15 @@ body {
   margin-right: 2rem;
 }
 
+/*Key Frames*/
+
+@keyframes slideDown {
+  from {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

@@ -9,6 +9,8 @@ html, body{
   margin-bottom: -8rem;
   width: 32rem;
   margin-left: 1rem;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in-out forwards;
 
 }
 
@@ -17,9 +19,7 @@ html, body{
 .mainContent {
   margin: 5rem;
   padding: 10px;
-  text-align: center;
-  text-align: center;
- 
+  text-align: center; 
 }
 
 .mainContent p {
@@ -31,6 +31,8 @@ html, body{
 .title {
   font-size: 4.1rem;
   font-weight: bold;
+  transform: translateY(50px);
+  animation: slideUp 0.8s ease-in-out forwards;
 }
 
 
@@ -45,6 +47,8 @@ html, body{
   font-size: 1.5rem !important;
   color: #666;
   margin-top: -2rem;
+  transform: translateY(50px);
+  animation: slideUp 1s ease-in-out forwards;
 }
 
 
@@ -52,6 +56,8 @@ html, body{
 
 .button-log {
   margin-top: 20px;
+  transform: translateY(50px);
+  animation: slideUp 1.2s ease-in-out forwards;
 }
 
 .button-log a {
@@ -100,4 +106,28 @@ html, body{
   background-color: #E7E7E7;
   border: 1px solid #3D3D3D;
   transform: translateY(-2px);
+}
+
+/*Key Frames*/
+
+/*Desliza hacaia arriaba*/
+@keyframes slideUp {
+  from {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/*Va Apareciendo*/
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  } 
 }
