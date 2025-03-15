@@ -4,6 +4,7 @@ import arrow from '../../../../img/icons/ArrowRight.png'
 import arrowDown from '../../../../img/icons/ArrowDown.png'
 import Video from '../../../../img/VideoMe2.mp4'
 import { MainAboutMe } from './MainAboutMe'
+import { Footer } from '../Footer/Footer'
 
 
 
@@ -30,6 +31,8 @@ export const Main = () => {
     </main>
 
     <MainAboutMe />
+
+    <Footer/>
     </>
   )
 }
