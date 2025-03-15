@@ -1,30 +1,21 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import { FaFacebookF, FaTwitter, FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa';
 import '../../../Styles/footer.css'
 
 export const Footer = () => {
-
-    const [isVisible, setIsVisible] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-                setIsVisible(true);
-            } else {
-                setIsVisible(false);
-            }
-        };
-
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
     
     return (
         <>
 
-<footer className={`footer ${isVisible ? 'visible' : ''}`}>
+<footer className='footer'>
       <h2>Portfolio</h2>
       <div className="social-icons">
+
+      <a href="#" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
 
       
       </div>
