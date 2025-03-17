@@ -14,7 +14,16 @@ export const Main = () => {
     
     <main className='mainContent'>
 
-        <video src={Video} width='450px' autoPlay loop muted className='logoPersonal-Video'></video>
+        <video src={Video} width='450px' autoPlay loop muted className='logoPersonal-Video'>
+          {/*Tipos de video soportados para todos los navegadores*/}
+          <source src={Video} type="video/mp4"/>
+          <source src={Video} type="video/webm"/>
+          <source src={Video} type="video/ogg"/>
+          <source src={Video} type="video/mov"/>
+
+          tu navegador no soporta el video
+
+        </video>
 
         <h2 className='title'>Hello, I´m 
           <span> Jul!an Dev</span>
