@@ -102,3 +102,18 @@ display: inline-block;
   height: 100%;
   object-fit: cover;
 }
+
+
+/*Key Frames*/
+
+/*Desliza hacaia arriaba*/
+@keyframes slideDown {
+  from {
+      opacity: 0;
+      transform: translateY(-50px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
