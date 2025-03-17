@@ -11,7 +11,7 @@ export const Main = () => {
     
     <main className='mainContent'>
 
-      <video src={Video} width='450px' autoPlay loop muted></video>
+      <video src={Video} width='450px' autoPlay loop muted playsInline></video>
       
 
         <h2 className='title'>Hello, I´m 
