@@ -1,0 +1,35 @@
+.main-project{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  
+  }
+
+  .ContainerProject{
+    text-align: center;
+  display: inline-block;
+  }
+
+  .Project-title{
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  hr{
+    width: 20%;
+    height: 4px;
+    border: none;
+    background-color: black;
+
+  }
+
+  .description{
+    display: inline-block;
+    width: 90%;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: #555;
+  }
