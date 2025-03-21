@@ -11,7 +11,7 @@ export const Cards = () => {
             <div class="image image-dark">
 
             <a className='btn' href="#" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Demo</a>
-            <a className='btn' href="#" target="_blank" rel="noopener noreferrer"><FaGithub /> Git</a>
+            <a className='btn' href="#" target="_blank" rel="noopener noreferrer"><FaGithub /> Code</a>
                  
             </div>
             <div class="content">

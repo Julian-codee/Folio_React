@@ -1,8 +1,10 @@
-
+/*Estilo del container ajustandolo en el centro*/
 .container {
     display: flex;
    justify-content: center;
 }
+
+/*Estilo de la card*/
 .card {
     width: 90%;
     background: white;
@@ -21,25 +23,34 @@
     position: relative;
 }
 
-.buttons {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.image:hover .btn{
+    opacity: 1;
+}
+
+.btn {
+    background: transparent;
+    border: solid 1px white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    text-decoration: none;
+    color: white;
     display: flex;
     gap: 10px;
+    margin: 20px;
 }
-.btn {
-    background: rgba(255, 255, 255, 0.9);
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
+
+.btn:hover{
+    color: black;
+    background-color: white;
 }
+
+
+
+
 .card:hover .image {
-    background-color: #333;
+    background-color: #33333378;
 }
 .card:hover .buttons {
     opacity: 1;
