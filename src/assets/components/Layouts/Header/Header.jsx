@@ -3,7 +3,7 @@ import '../../../Styles/header.css'
 import logo from '../../../react.svg'
 import Sun from '../../../../img/icons/IconSun.png'
 import { DropDown } from '../../Ui/DropDown'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 
 
 export const Header = () => {
@@ -11,6 +11,7 @@ export const Header = () => {
     //Funcion para cambiar el color del header al hacer scroll
 
     const [scrolled, setScrolled] = useState(false);
+    const location = useLocation();
 
     useEffect(() => {
       const handleScroll = () => {
@@ -26,6 +27,20 @@ export const Header = () => {
         window.removeEventListener('scroll', handleScroll);
       };
     }, []);
+
+     // Detecta cuando estamos en "/" y queremos ir a "About"
+  useEffect(() => {
+    if (location.hash === "#About") {
+      const aboutSection = document.getElementById("mainAboutMe");
+      if (aboutSection) {
+        setTimeout(() => {
+          aboutSection.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+    }
+  }, [location]);
+
+    
 
 
     //Retorno del Componente
@@ -45,11 +60,10 @@ export const Header = () => {
 
         <nav>
         <ul>
-          <li><NavLink to="/" activeClassName="active">Home</NavLink></li>
-          <li><a href='#MainAboutMe' activeClassName="active">About</a></li>
-          <li><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>
-          <li><NavLink to="#" activeClassName="active">Skills</NavLink></li>
-          <li><NavLink to="#" activeClassName="active">Contact</NavLink></li>
+          <li><NavLink to="/" end className={({ isActive }) => (isActive ? "active" : "")}>Home</NavLink></li>
+          <li><NavLink to="/projects" className={({ isActive }) => (isActive ? "active" : "")}>Projects</NavLink></li>
+          <li><NavLink to="/Skills" className={({ isActive }) => (isActive ? "active" : "")}>Skills</NavLink></li>
+          <li><NavLink to="/ContactMe" className={({ isActive }) => (isActive ? "active" : "")}>Contact</NavLink></li>
         </ul>
       </nav>
 

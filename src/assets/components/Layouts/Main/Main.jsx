@@ -1,6 +1,5 @@
 import { useRef } from 'react'//Importamos useRef para hacer scroll
 import '../../../Styles/main.css'
-import logoPersonal from '../../../../img/ME2.png'
 import arrow from '../../../../img/icons/ArrowRight.png'
 import arrowDown from '../../../../img/icons/ArrowDown.png'
 import Video from '../../../../img/VideoMe2.mp4'

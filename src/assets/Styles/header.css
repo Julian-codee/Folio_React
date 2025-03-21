@@ -57,6 +57,18 @@ body {
   transition: color 0.3s ease;
 }
 
+
+.header nav ul li a.active {
+color: #0693e3;
+font-weight: bold;
+border-bottom: 2px solid #0693e3; /* Subrayado */
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
 .header nav ul li a:hover {
   color: #0693e3; 
 }

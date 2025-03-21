@@ -5,6 +5,8 @@ import "./App.css";
 import { Header } from "./assets/components/Layouts/Header/Header";
 import { Main } from "./assets/components/Layouts/Main/Main";
 import { Myprojects } from "./assets/components/Layouts/Main/Myprojects";
+import { Skills } from "./assets/components/Layouts/Main/Skills";
+import { ContactMe } from "./assets/components/Layouts/Main/ContactMe";
 
 // Importamos el componentes react-Router-Dom
 import React from "react";
@@ -26,6 +28,9 @@ export const App = () => {
           <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/projects" element={<Myprojects />} />
+            <Route path="/Skills" element={<Skills />} />
+            <Route path="/ContactMe" element={<ContactMe />} />
+           
           </Routes>
      
         </Container>
