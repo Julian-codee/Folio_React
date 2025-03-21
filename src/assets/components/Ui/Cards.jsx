@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../Styles/Cards.css'
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 export const Cards = () => {
   return (
@@ -8,8 +9,10 @@ export const Cards = () => {
 <div class="container">
         <div class="card">
             <div class="image image-dark">
-                <button class="btn">Demo</button>
-                <button class="btn">Code</button>
+
+            <a className='btn' href="#" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /> Demo</a>
+            <a className='btn' href="#" target="_blank" rel="noopener noreferrer"><FaGithub /> Git</a>
+                 
             </div>
             <div class="content">
                 <h3>E-commerce Website</h3>
