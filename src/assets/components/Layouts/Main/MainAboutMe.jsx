@@ -5,7 +5,7 @@ import profileImage from "../../../../img/ME3.png";
 
 export const MainAboutMe = () => {
   return (
-    <section className="main-about-me">
+    <section className="main-about-me" id="MainAboutMe">
       <div className="about-header">
         <h2 className="AboutMe-title">About Me</h2>
         <hr className="divider" />

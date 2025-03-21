@@ -27,6 +27,7 @@ export const Header = () => {
       };
     }, []);
 
+
     //Retorno del Componente
 
   return (
@@ -45,7 +46,7 @@ export const Header = () => {
         <nav>
         <ul>
           <li><NavLink to="/" activeClassName="active">Home</NavLink></li>
-          <li><NavLink to="#" activeClassName="active">About Me</NavLink></li>
+          <li><a href='#MainAboutMe' activeClassName="active">About</a></li>
           <li><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>
           <li><NavLink to="#" activeClassName="active">Skills</NavLink></li>
           <li><NavLink to="#" activeClassName="active">Contact</NavLink></li>
