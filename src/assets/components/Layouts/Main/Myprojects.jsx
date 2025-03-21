@@ -2,6 +2,10 @@ import React from "react";
 import "../../../Styles/Myprojects.css";
 import { Cards } from "../../Ui/Cards";
 import { Footer } from "../Footer/Footer";
+import FitFalcon from '../../../../img/FitFalcon.png'
+import Diccionary from '../../../../img/LexiFy.png'
+import LazyyLetters from '../../../../img/LazzyLetter.png'
+import { image } from "framer-motion/client";
 
 export const Myprojects = () => {
   // Lista de proyectos con datos dinámicos
@@ -12,6 +16,7 @@ export const Myprojects = () => {
       tags: ["React", "Next.js", "Tailwind CSS", "Stripe"],
       demoLink: "https://fit-falcon.vercel.app",
       gitLink: "https://github.com/Julian-codee/FitFalcon.git",
+      image: FitFalcon,
     },
     {
       title: "Dictionary",
@@ -19,6 +24,7 @@ export const Myprojects = () => {
       tags: ["React", "CSS", "Framer Motion"],
       demoLink: "https://dictionary-xi-five.vercel.app",
       gitLink: "https://github.com/Julian-codee/Dictionary.git",
+      image: Diccionary,
     },
     {
       title: "lazzy Letters",
@@ -26,6 +32,7 @@ export const Myprojects = () => {
       tags: ["React", "Redux", "Firebase"],
       demoLink: "https://lazzy-letters.vercel.app",
       gitLink: "https://github.com/andressarchi/-lazy-letters.git",
+      image: LazyyLetters,
     },
     {
       title: "Chat App",
@@ -56,6 +63,7 @@ export const Myprojects = () => {
               tags={project.tags}
               demoLink={project.demoLink}
               gitLink={project.gitLink}
+              image={project.image}
             />
           ))}
         </div>
