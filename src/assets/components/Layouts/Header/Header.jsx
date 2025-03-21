@@ -3,6 +3,7 @@ import '../../../Styles/header.css'
 import logo from '../../../react.svg'
 import Sun from '../../../../img/icons/IconSun.png'
 import { DropDown } from '../../Ui/DropDown'
+import { NavLink } from 'react-router-dom'
 
 
 export const Header = () => {
@@ -42,14 +43,14 @@ export const Header = () => {
         </div>
 
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <ul>
+          <li><NavLink to="/" activeClassName="active">Home</NavLink></li>
+          <li><NavLink to="#" activeClassName="active">About Me</NavLink></li>
+          <li><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>
+          <li><NavLink to="#" activeClassName="active">Skills</NavLink></li>
+          <li><NavLink to="#" activeClassName="active">Contact</NavLink></li>
+        </ul>
+      </nav>
 
         <div className="bg-container">
 

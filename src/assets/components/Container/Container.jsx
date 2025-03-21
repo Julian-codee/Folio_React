@@ -1,9 +1,14 @@
-import React, { Children } from 'react'
+import React from 'react'
 
-export const Container = () => {
+export const Container = ({ children }) => {
   return (
-    {
-        Children
-    }
+    <div>
+
+        {
+            children
+        }
+      
+    </div>
   )
 }
+
