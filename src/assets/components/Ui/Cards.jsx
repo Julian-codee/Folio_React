@@ -6,6 +6,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 export const Cards = ({ title, description, tags, demoLink, gitLink, image }) => {
   return (
     <div className="container">
+      
       <div className="card">
         <div className="image">
           {/* Quita los atributos incorrectos y coloca la imagen correctamente */}

@@ -1,3 +1,4 @@
+/* Your existing CSS */
 .main-project {
   display: flex;
   flex-direction: column;
@@ -5,25 +6,21 @@
   align-items: center;
   background-color: #efefef7d;
 }
-
 .ContainerProject {
   text-align: center;
   display: inline-block;
 }
-
 .Project-title {
   margin-top: 2rem;
   text-align: center;
   font-size: 2.5rem;
 }
-
 hr {
   width: 20%;
   height: 4px;
   border: none;
   background-color: black;
 }
-
 .description {
   display: inline-block;
   width: 90%;
@@ -32,10 +29,21 @@ hr {
   color: #555;
 }
 
+/* Update this section to use grid instead of flex */
 .ContainerCard {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns for desktop */
   gap: 35px;
+  padding: 2rem 8rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Add media query for mobile */
+@media (max-width: 768px) {
+  .ContainerCard {
+    grid-template-columns: 1fr; /* 1 column for mobile */
+    padding: 2rem;
+  }
 }
