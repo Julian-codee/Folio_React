@@ -1,44 +1,41 @@
-.main-project{
-   
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-    background-color: #efefef7d;
-  
-  }
+.main-project {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  background-color: #efefef7d;
+}
 
-  .ContainerProject{
-    text-align: center;
+.ContainerProject {
+  text-align: center;
   display: inline-block;
-  }
+}
 
-  .Project-title{
-    margin-top: 2rem;
-    text-align: center;
-    font-size: 2.5rem;
-  }
-  
-  hr{
-    width: 20%;
-    height: 4px;
-    border: none;
-    background-color: black;
+.Project-title {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
 
-  }
+hr {
+  width: 20%;
+  height: 4px;
+  border: none;
+  background-color: black;
+}
 
-  .description{
-    display: inline-block;
-    width: 90%;
-    margin-top: 1rem;
-    font-size: 1.3rem;
-    color: #555;
-  }
+.description {
+  display: inline-block;
+  width: 90%;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  color: #555;
+}
 
-  .ContainerCard{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    padding: 8rem;
-    gap: 35px;
-  }
+.ContainerCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 8rem;
+  gap: 35px;
+}

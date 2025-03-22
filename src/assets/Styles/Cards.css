@@ -6,7 +6,7 @@
 
 /*Estilo de la card*/
 .card {
-    width: 90%;
+    width: 50%;
     background: white;
     border-radius: 10px;
     overflow: hidden;
@@ -17,14 +17,14 @@
 .image {
     position: relative;
     width: 100%;
-    height: 200px; /* Ajusta esta altura según tus necesidades */
+    height: 200px;
     overflow: hidden;
   }
   
   .card-img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Esto hace que la imagen cubra el área sin distorsionarse */
+    object-fit: cover;
   }
   
   .image-dark {
