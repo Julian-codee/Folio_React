@@ -5,41 +5,42 @@ import { Footer } from "../Footer/Footer";
 import FitFalcon from '../../../../img/FitFalcon.png'
 import Diccionary from '../../../../img/LexiFy.png'
 import LazyyLetters from '../../../../img/LazzyLetter.png'
-import { image } from "framer-motion/client";
+import MusicReproductor from '../../../../img/MusicReproductor.png'
 
 export const Myprojects = () => {
   // Lista de proyectos con datos dinámicos
   const projects = [
     {
       title: "FitFalcon",
-      description: "A modern e-commerce platform with a sleek UI and seamless checkout experience.",
-      tags: ["React", "Next.js", "Tailwind CSS", "Stripe"],
+      description: "Discover the latest in athletic fashion with our app. Shop high-performance gear, track trends, and find the perfect fit for your workouts.",
+      tags: ["Js", "Css5", "Boostrap"],
       demoLink: "https://fit-falcon.vercel.app",
       gitLink: "https://github.com/Julian-codee/FitFalcon.git",
       image: FitFalcon,
     },
     {
       title: "Dictionary",
-      description: "Personal portfolio showcasing my skills, projects, and experience.",
-      tags: ["React", "CSS", "Framer Motion"],
+      description: "Instantly translate text, voice, and images in multiple languages. Communicate effortlessly and break language barriers anywhere.",
+      tags: ["Js", "Css5", "Boostrap"],
       demoLink: "https://dictionary-xi-five.vercel.app",
       gitLink: "https://github.com/Julian-codee/Dictionary.git",
       image: Diccionary,
     },
     {
       title: "lazzy Letters",
-      description: "A simple yet powerful task management application with drag and drop functionality.",
-      tags: ["React", "Redux", "Firebase"],
+      description: "Challenge your vocabulary with fun puzzles and brain teasers. Compete with friends and sharpen your word skills daily.",
+      tags: ["Js", "Css5", "Boostrap"],
       demoLink: "https://lazzy-letters.vercel.app",
       gitLink: "https://github.com/andressarchi/-lazy-letters.git",
       image: LazyyLetters,
     },
     {
-      title: "Chat App",
-      description: "Real-time chat application with authentication and media sharing.",
-      tags: ["React", "Socket.io", "Node.js"],
-      demoLink: "https://chatapp.com",
-      gitLink: "https://github.com/user/chat-app",
+      title: "Music Reproductor",
+      description: "Enjoy your favorite songs with a sleek, easy-to-use player. Create playlists, explore genres, and listen offline anytime.",
+      tags: ["Js", "Css5", "Boostrap"],
+      demoLink: "https://music-reproductor-five.vercel.app",
+      gitLink: "https://github.com/Julian-codee",
+      image: MusicReproductor,
     },
   ];
 
