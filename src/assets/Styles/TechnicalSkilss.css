@@ -1,0 +1,41 @@
+/* Your existing CSS */
+.main-Skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: #efefef7d;
+  }
+  .ContainerSkills {
+    text-align: center;
+    display: inline-block;
+  }
+  .Project-title {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  hr {
+    width: 20%;
+    height: 4px;
+    border: none;
+    background-color: black;
+  }
+  .description {
+    display: inline-block;
+    width: 90%;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: #555;
+  }
+  
+  /* Update this section to use grid instead of flex */
+  .ContainerCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for desktop */
+    gap: 35px;
+    padding: 2rem 8rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
