@@ -1,0 +1,43 @@
+.progressSkill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+  }
+
+  .infoProgress{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  progress {
+    width: 100%;
+    height: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background-color: #dd0808;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 10px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  .progressLabel {
+    margin-top: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  

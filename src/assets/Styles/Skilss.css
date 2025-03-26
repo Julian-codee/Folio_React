@@ -5,6 +5,7 @@
     gap: 10px;
     align-items: center;
     background-color: #efefef7d;
+    text-align: center;
   }
   .ContainerSkills {
     text-align: center;
@@ -28,14 +29,6 @@
     font-size: 1.3rem;
     color: #555;
   }
+
+
   
-  /* Update this section to use grid instead of flex */
-  .ContainerCard {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for desktop */
-    gap: 35px;
-    padding: 2rem 8rem;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
