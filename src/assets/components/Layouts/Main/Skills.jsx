@@ -1,6 +1,7 @@
 import React from 'react'
 import { TechnicalSkills } from '../../Ui/TechnicalSkills'
 import { Footer } from '../Footer/Footer'
+import { ToolsSoftware } from '../../Ui/ToolsSoftware'
 import '../../../Styles/Skilss.css'
 
 export const Skills = () => {
@@ -19,7 +20,10 @@ export const Skills = () => {
         <div className="Skilss">
 
         <TechnicalSkills />
+
+        <ToolsSoftware />
        
+
 
         </div>
 
