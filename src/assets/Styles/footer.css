@@ -48,6 +48,8 @@
     justify-content: center;
     gap: 30px;
     margin: 35px 0;
+    text-decoration: none;
+    list-style: none;
   }
   
   .footer-nav a {
