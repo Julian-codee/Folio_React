@@ -1,0 +1,32 @@
+/* Your existing CSS */
+.main-Contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef7d;
+    text-align: center;
+  }
+  .ContainerContact {
+    text-align: center;
+    display: inline-block;
+  }
+  .Contact-title {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  hr {
+    width: 20%;
+    height: 4px;
+    border: none;
+    background-color: black;
+  }
+  .description {
+    display: inline-block;
+    width: 90%;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: #555;
+  }
