@@ -1,4 +1,25 @@
 .ContainerTools{
-    background-color: rebeccapurple;
     width: 50%;
+}
+
+.tools{
+    margin-top: 5rem;
+    width: 90%;
+    justify-self: center;
+    margin-left: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.figma{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    background: linear-gradient(to right, rgba(128, 128, 128, 0.239) , rgba(255, 255, 255, 0.293));
+    box-shadow: 1px 1px 5px black;
+    border-radius: 20px;
+
 }

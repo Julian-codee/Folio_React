@@ -9,7 +9,31 @@ export const ToolsSoftware = () => {
         <div className="tools">
 
           <div className="figma">
-            <h2>Figma</h2>
+            <p>VS Code</p>
+          </div>
+
+          <div className="figma">
+            <p>Figma</p>
+          </div>
+
+          <div className="figma">
+            <p>Git & GitHub</p>
+          </div>
+
+          <div className="figma">
+            <p>Vercel</p>
+          </div>
+
+          <div className="figma">
+            <p>Adobe Ilustrator</p>
+          </div>
+
+          <div className="figma">
+            <p>Netlify</p>
+          </div>
+
+          <div className="figma">
+            <p>Intellij IDE</p>
           </div>
             
         </div>
