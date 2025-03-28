@@ -16,29 +16,29 @@ export const FormContact = () => {
                 <div className="NameMail">
 
                 <label className='LbInfo'>
-                    Your Name:
+                   <p> Your Name:</p>
                     <input className='personal' type="text" placeholder='Jull!an' />
                 </label>
 
                 <label className='LbInfo'>
-                    Your Email:
+                   <p> Your Email:</p>
                     <input className='personal' type="text" placeholder='Jull!an@example.com' />
                 </label>
 
                 </div>
         
                 <label className='LbInfo'>
-                    Subject:
+                    <p className='PInfo' >Subject:</p>
                     <input className='subject' type="text" placeholder='Project Inquiry' />
                 </label>
 
                 <label className='LbInfo'>
-                    Message:
-                    <textarea className='message' type="text" placeholder='Jull!an' />
+                    <p className='PInfo'>Message:</p>
+                    <textarea className='message' type="text" placeholder='Hello, I´d like to talk about' />
                 </label>
 
                 <div className="SubmitButton">
-                    <p>Enviar</p>
+                    <p className='send'>Send Message </p>
                     <FaPaperPlane />
                 </div>
             </form>

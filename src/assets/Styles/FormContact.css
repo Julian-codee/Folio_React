@@ -16,8 +16,6 @@
     align-items: center;
     margin-top: 3rem;
     width: 100%;
-    background-color: blue;
-
 }
 
 .LbInfo{
@@ -25,6 +23,8 @@ display: flex;
 justify-content: center;
 flex-direction: column;
 align-items: flex-start;
+font-weight: bold;
+margin-bottom: -1rem;
 }
 
 
@@ -46,3 +46,36 @@ margin-left: 1.8rem;
     height: 15vh;
     margin-bottom:2rem;
 }
+
+.PInfo{
+    margin-left: 2rem;
+}
+
+.SubmitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 41.5rem;
+    margin-left: 2rem;
+    border-radius: 30px;
+    height: 3rem;
+    background-color: black;
+    color: white;
+
+}
+
+.send{
+    padding: 20px;
+}
+
+  /*Manejo de estilos del placeholder*/
+  
+  input::placeholder{
+    text-indent: 10px;
+  }
+
+  textarea::placeholder{
+    text-indent: 10px;
+    padding-top: 6px;
+  }
