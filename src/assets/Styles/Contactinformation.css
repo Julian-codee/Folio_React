@@ -1,0 +1,47 @@
+.ContactInformation{
+    width: 50%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.infoPins{
+    margin-top: 5rem;
+    margin:3rem;
+    width: 90%;
+}
+
+.pin{
+    display: flex;
+    box-shadow: 0 0 1px rgba(128, 128, 128, 0.466);
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.pinicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: rgba(173, 168, 168, 0.283);
+    width: 70px;
+    height: 60px;
+    margin: 1rem;
+}
+
+.infoicon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.infoicon > p{
+    margin: 2px 0;
+}
+
+.SocialInfo{
+    font-weight: bold;
+    font-size: 20px;
+}
+

@@ -1,5 +1,7 @@
 import React from 'react'
 import '../../../Styles/ContactMe.css'
+import { ContactInformation } from '../../Ui/ContactInformation'
+import {Footer} from '../Footer/Footer'
 
 export const ContactMe = () => {
   return (
@@ -13,7 +15,16 @@ export const ContactMe = () => {
           Have a project in mind or want to collaborate? Feel free to reach out to me.
           </p>
         </div>
+
+        <div className="containerContact2">
+
+        <ContactInformation />
+
         </div>
+
+        </div>
+
+        <Footer />
 
 </>
   )

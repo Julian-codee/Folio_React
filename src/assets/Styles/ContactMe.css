@@ -30,3 +30,8 @@
     font-size: 1.3rem;
     color: #555;
   }
+
+  .containerContact2{
+    width: 100%;
+    display: flex;
+  }
