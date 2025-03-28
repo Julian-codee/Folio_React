@@ -29,13 +29,13 @@ export const Main = () => {
           autoPlay
           loop
           muted
+          playsInline
           className="logoPersonal-Video"
         >
           {/*Tipos de video soportados para todos los navegadores*/}
           <source src={Video} type="video/mp4" />
           <source src={Video} type="video/webm" />
           <source src={Video} type="video/ogg" />
-          <source src={Video} type="video/mov" />
           tu navegador no soporta el video
         </video>
 
