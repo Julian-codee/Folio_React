@@ -2,3 +2,47 @@
     margin-top: 6rem;
     width: 50%;
 }
+
+.titleContact{
+    align-items: flex-start;
+    display: flex;
+    margin-left: 2rem;
+}
+
+.NameMail{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+    background-color: blue;
+
+}
+
+.LbInfo{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+.personal{
+    width: 300px;
+    height: 4vh;
+}
+
+.subject{
+margin-left: 1.8rem;
+    width: 41.5rem;
+    height: 4vh;
+    margin-bottom:4rem;
+}
+
+.message{
+    margin-left: 1.8rem;
+    width: 41.5rem;
+    height: 15vh;
+    margin-bottom:2rem;
+}
