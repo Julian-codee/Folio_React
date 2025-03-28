@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../../Styles/ContactMe.css'
 import { ContactInformation } from '../../Ui/ContactInformation'
+import { FormContact } from '../../Ui/FormContact'
 import {Footer} from '../Footer/Footer'
 
 export const ContactMe = () => {
@@ -19,6 +20,7 @@ export const ContactMe = () => {
         <div className="containerContact2">
 
         <ContactInformation />
+        <FormContact />
 
         </div>
 
