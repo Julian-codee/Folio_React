@@ -48,7 +48,7 @@ export const Myprojects = () => {
     <>
       <div className="main-project">
         <div className="ContainerProject">
-          <h2 className="Project-title">My Projects</h2>
+          <h2 className="Projecttitle">My Projects</h2>
           <hr className="divider" />
           <p className="descripttion">
             Explore my recent work and projects that showcase my skills and expertise.

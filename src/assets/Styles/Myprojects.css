@@ -10,7 +10,7 @@
   text-align: center;
   display: inline-block;
 }
-.Project-title {
+.Projecttitle {
   margin-top: 2rem;
   text-align: center;
   font-size: 2.5rem;
@@ -50,37 +50,15 @@ hr {
     gap: 25px;
   }
 
-  .Project-title {
-    font-size: 2rem; 
-  }
-
   .descripttion {
     font-size: 1.2rem;
     width: 95%; 
   }
 }
 
-/* Móvil (768px o menos) */
-@media screen and (max-width: 768px) {
-  .ContainerCard {
-    grid-template-columns: 1fr;
-    padding: 2rem;
-    gap: 20px;
-  }
-
-  .Project-title {
-    font-size: 1.8rem;
-    margin-top: 1.5rem;
-  }
-
-  hr {
-    width: 40%;
-  }
-}
-
 /*Teléfonos Pequeños (480px o menos) */
 @media screen and (max-width: 480px) {
-  .Project-title {
+  .Projecttitle{
     font-size: 1.5rem; 
     display: flex;
     align-items: center;
