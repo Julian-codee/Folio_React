@@ -12,7 +12,7 @@
     text-align: center;
     display: inline-block;
   }
-  .Project-title {
+  .Projecttitle {
     margin-top: 2rem;
     text-align: center;
     font-size: 2.5rem;
@@ -37,5 +37,41 @@
     justify-content: center;
   }
 
+  /* RESPONSIVE DESIGN */
 
-  
+  /* Para tablets */
+@media (max-width: 1024px) {
+  .Project-title {
+      font-size: 2.2rem;
+  }
+
+  .description {
+      font-size: 1.2rem;
+  }
+
+  .Skilss {
+      gap: 15px;
+  }
+}
+
+
+/* Para Moviles */
+@media (max-width: 480px) {
+  .Projecttitle {
+      font-size: 1.5rem;
+  }
+
+  .description {
+      font-size: 1rem;
+  }
+
+  hr {
+      width: 40%;
+  }
+
+  .Skilss{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

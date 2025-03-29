@@ -41,4 +41,34 @@
     font-weight: bold;
     color: #333;
   }
+
+  /* Para tablets */
+@media (max-width: 1024px) {
+  .progressSkill {
+      width: 70%;
+      margin: 1rem 5rem;
+  }
+
+  .infoProgress,
+  progress {
+      width: 100%;
+      max-width: 30rem;
+  }
+}
+
+/* Para móviles */
+@media (max-width: 480px) {
+  .progressSkill {
+    width: 100%;
+    max-width: 90%;
+    margin-left: 1.2rem;
+    text-align: center;
+  }
+
+  .infoProgress {
+      display: flex;
+      align-items: center;
+  }
+}
+
   

@@ -23,3 +23,68 @@
     border-radius: 20px;
 
 }
+
+/* REAPONSIVE DESIGN */
+
+/* Para tablets */
+@media (max-width: 1024px) {
+    .ContainerTools {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .tools {
+        width: 100%;
+        margin-left: 0;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .figma {
+        height: auto;
+        padding: 15px;
+    }
+}
+
+/* Para móviles */
+@media (max-width: 768px) {
+    .ContainerTools {
+        width: 100%;
+    }
+
+    .tools {
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 20px;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .figma {
+        width: 80%;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ContainerTools {
+        width: 100%;
+        padding: 0 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .tools {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 2rem;
+    }
+
+    .figma {
+        width: 80%;
+        height: auto;
+        padding: 10px;
+        margin-left: -1.4rem;
+    }
+}
