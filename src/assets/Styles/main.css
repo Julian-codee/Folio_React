@@ -204,3 +204,20 @@ html, body{
     margin-left: 0;
   }
 }
+
+/* Mejoras para iOS Safari */
+@supports (-webkit-touch-callout: none) {
+  .logoPersonal-Video {
+    /* Fix Safari iOS glitches */
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+  }
+}
+
+/* Mejoras para Chrome o Android */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .logoPersonal-Video {
+    backface-visibility: hidden;
+  }
+}
