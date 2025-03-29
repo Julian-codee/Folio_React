@@ -166,13 +166,14 @@ html, body{
 }
 
 /*  Para Celulares y pantallas pequeñas (hasta 480px) */
-@media screen and (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 480px) {
   .logoPersonal-Video {
-    width: 18rem;
+    width: 21rem;
     margin-bottom: -3rem;
   }
 
   .mainContent {
+    margin-top: 3rem;
     padding: 5px;
   }
 
@@ -190,7 +191,7 @@ html, body{
   }
 
   .btn-Primary, .btn-secondary {
-    width: 7rem;
+    width: 10rem;
     padding: 12px 20px;
     font-size: 0.9rem;
   }
