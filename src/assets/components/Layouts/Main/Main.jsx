@@ -30,6 +30,7 @@ export const Main = () => {
           loop
           muted
           playsInline
+          preload='auto'
           className="logoPersonal-Video"
         >
           {/*Tipos de video soportados para todos los navegadores*/}
