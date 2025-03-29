@@ -50,7 +50,7 @@ export const Myprojects = () => {
         <div className="ContainerProject">
           <h2 className="Project-title">My Projects</h2>
           <hr className="divider" />
-          <p className="description">
+          <p className="descripttion">
             Explore my recent work and projects that showcase my skills and expertise.
           </p>
         </div>

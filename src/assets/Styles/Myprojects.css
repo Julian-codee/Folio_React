@@ -21,7 +21,7 @@ hr {
   border: none;
   background-color: black;
 }
-.description {
+.descripttion {
   display: inline-block;
   width: 90%;
   margin-top: 1rem;
@@ -40,10 +40,56 @@ hr {
   margin: 0 auto;
 }
 
-/* Add media query for mobile */
-@media (max-width: 768px) {
+/*  Responsive Design */
+
+/* Tablet (1024px o menos) */
+@media screen and (max-width: 1024px) {
   .ContainerCard {
-    grid-template-columns: 1fr; /* 1 column for mobile */
-    padding: 2rem;
+    grid-template-columns: 1fr;
+    padding: 2rem 4rem; 
+    gap: 25px;
   }
+
+  .Project-title {
+    font-size: 2rem; 
+  }
+
+  .descripttion {
+    font-size: 1.2rem;
+    width: 95%; 
+  }
+}
+
+/* Móvil (768px o menos) */
+@media screen and (max-width: 768px) {
+  .ContainerCard {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    gap: 20px;
+  }
+
+  .Project-title {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+  }
+
+  hr {
+    width: 40%;
+  }
+}
+
+/*Teléfonos Pequeños (480px o menos) */
+@media screen and (max-width: 480px) {
+  .Project-title {
+    font-size: 1.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ContainerCard {
+    padding: 1rem;
+    gap: 15px;
+  }
+
 }
