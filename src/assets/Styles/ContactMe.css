@@ -35,3 +35,56 @@
     width: 100%;
     display: flex;
   }
+
+  /* Para tablets */
+@media (max-width: 1024px) {
+  .containerContact2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .ContainerContact {
+      width: 100%;
+  }
+}
+
+/* Para móviles */
+@media (max-width: 768px) {
+  .containerContact2 {
+      flex-direction: column;
+      width: 100%;
+      padding: 0 1rem;
+  }
+
+  .ContainerContact {
+      width: 100%;
+  }
+
+  .Contact-title {
+      font-size: 2rem;
+  }
+
+  .description {
+      font-size: 1.1rem;
+      width: 100%;
+  }
+}
+
+/* Para pantallas muy pequeñas */
+@media (max-width: 480px) {
+  .containerContact{
+      flex-direction: column;
+      width: 100%;
+      padding: 0.5rem;
+  }
+
+  .Contact-title {
+      font-size: 1.8rem;
+  }
+
+  .description {
+      font-size: 1rem;
+      width: 100%;
+  }
+}

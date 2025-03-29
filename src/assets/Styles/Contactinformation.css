@@ -45,3 +45,83 @@
     font-size: 20px;
 }
 
+
+/* Para tablets */
+@media (max-width: 1024px) {
+    .ContactInformation {
+        width: 70%;
+        text-align: center;
+    }
+
+    .infoPins {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .pin {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .infoicon {
+        align-items: center;
+    }
+}
+
+/* Para móviles */
+@media (max-width: 768px) {
+    .ContactInformation {
+        width: 90%;
+    }
+
+    .infoPins {
+        width: 100%;
+    }
+
+    .pin {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .pinicon {
+        width: 60px;
+        height: 50px;
+    }
+
+    .SocialInfo {
+        font-size: 18px;
+    }
+}
+
+/* Para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .ContactInformation {
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .infoPins {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .pin {
+        flex-direction: column;
+        align-items: center;
+        padding: 0.8rem;
+    }
+
+    .pinicon {
+        width: 50px;
+        height: 45px;
+    }
+
+    .SocialInfo {
+        font-size: 16px;
+    }
+}
+

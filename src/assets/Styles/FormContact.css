@@ -79,3 +79,64 @@ margin-left: 1.8rem;
     text-indent: 10px;
     padding-top: 6px;
   }
+
+  /* Para tablets */
+@media screen and (max-width: 1024px) {
+    .containerForm {
+        width: 70%;
+    }
+
+    .NameMail {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .personal, .subject, .message, .SubmitButton {
+        width: 60rem;
+        max-width: 35rem;
+        margin-left: 0;
+    }
+}
+
+
+/* Para Moviles */
+@media screen and (max-width: 480px) {
+    .containerForm {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .titleContact {
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .NameMail {
+        width: 100%;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .personal{
+        width: 331px;
+    }
+
+    .message,.subject {
+        width: 85%;
+        margin-left: 1.9rem;
+    }
+
+    .SubmitButton{
+        width: 90%;
+        margin-left: 1.3rem;
+        height: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    
+}
