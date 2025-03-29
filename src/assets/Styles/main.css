@@ -205,22 +205,3 @@ html, body{
   }
 }
 
-/* Mejoras para iOS Safari */
-@supports (-webkit-touch-callout: none) {
-  .logoPersonal-Video {
-    /* Fix Safari iOS glitches */
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    will-change: transform;
-  }
-}
-
-/* Específico para Android Chrome */
-@supports (-webkit-appearance:none) and (not (overflow:-webkit-marquee)) and (not (-ms-ime-align:auto)) and (not (-moz-appearance:none)) {
-  .logoPersonal-Video {
-    background: transparent !important;
-    -webkit-backdrop-filter: blur(0); /* Desactivar filtros que puedan causar el fondo negro */
-    backdrop-filter: blur(0);
-    isolation: isolate; /* Asistencia adicional para renderizado */
-  }
-}
