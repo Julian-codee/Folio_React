@@ -5,6 +5,7 @@ import arrowDown from '../../../../img/icons/ArrowDown.png'
 import Video from '../../../../img/VideoMe2.mp4'
 import { MainAboutMe } from './MainAboutMe'
 import { Footer } from '../Footer/Footer'
+import { NavLink} from 'react-router-dom'
 
 
 
@@ -46,9 +47,9 @@ export const Main = () => {
         <p className="SubTitle">FullStack Developer & UI/UX Designer</p>
 
         <div className="button-log">
-          <a href="#" className="btn-Primary">
+          <NavLink to="/projects" className="btn-Primary">
             View My Work <img src={arrow} alt="Arrow" className="ArrowRight" />
-          </a>
+          </NavLink>
           <a onClick={scrollToAboutMe} className="btn-secondary">
             Learn More <img src={arrowDown} alt="Arrow" className="ArrowDown" />
           </a>
